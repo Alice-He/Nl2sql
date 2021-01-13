@@ -1,20 +1,13 @@
 ## [阿里天池首届中文NL2SQL挑战赛](https://tianchi.aliyun.com/competition/entrance/231716/introduction) 
-排名: 6
-
-队名: 爆写规则一万行
-
-成员: [eguilg](https://github.com/eguilg), [严之zh](https://github.com/zhangyan333), [naniwet](https://github.com/naniwet)
 
 ### Environments
-Ubuntu 18.04
+centos 7
 
-Python: 3.6.5
+Python: 3.8
 
-Pytorch: 1.1.0 
+Pytorch: 1.3 
 
 CUDA: 9.0
-
-CUDNN: 7.1.3
 
 ### Required packages
 We used [pytorch-pretrained-bert](https://pypi.org/project/pytorch-pretrained-bert/) package for backbone BERT model. 
@@ -25,7 +18,7 @@ Required Python packages:
 ```
 fuzzywuzzy==0.17.0
 numpy==1.17.0
-torch==1.1.0
+torch==1.3
 pytorch-pretrained-bert==0.6.2
 tqdm==4.24.0
 records 
