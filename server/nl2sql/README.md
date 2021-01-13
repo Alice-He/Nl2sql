@@ -1,4 +1,5 @@
-## [阿里天池首届中文NL2SQL挑战赛](https://tianchi.aliyun.com/competition/entrance/231716/introduction) 
+## 中文转SQL
+[阿里天池首届中文NL2SQL挑战赛](https://tianchi.aliyun.com/competition/entrance/231716/introduction) 
 
 ### Environments
 centos 7
