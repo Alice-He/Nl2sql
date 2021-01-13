@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>中文toSQL</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="mm">
+        <header class="header">
+            <div class="title">
+                <div class="logo">
+                    <img src="logo.jpg" alt="logo" id="logo_img">
+                </div>
+            </div>
+        </header>
+    </div>  
+    <div class="container">
+        <div class="nl2sql">
+            <div class="question">
+                <p class="q_title">查询问题</p>
+                <div class="table_id">请输入table id:<input type="text" name="table_id" size="30" maxlength="30" style="outline-style: none; border: 1px solid #fff; border-bottom: 1px solid rgb(120, 118, 118);"><br></div>
+                <div class="ch_question"><p style="top: 10px;">请输入中文查询语句:</p>
+                    <textarea rows="4" cols="40" style="margin-top: 5px;margin-left: 5px;"> </textarea>
+                </div>
+                <div class="q_button"><input type="button" name="ensure" value="查询"></div>
+            </div>
+            <div class="sql">
+                <div class="ch_sql">
+                    <p>sql语句:</p>
+                </div>
+                <div class="ch_data">
+                    <p>查询数据:</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="show_table">
+        <div class="sql_table">
+            <div class="shows">
+                <table border="1">
+                    <caption>Table:5a4f254c312b11e981f7542696d6e445</caption><!--表格标题-->
+                    <thead>
+                        <tr>
+                            <td>公司名称</td>
+                            <td>物业面积(万方)</td>
+                            <td>租赁收入（万元）</td>
+                            <td>平均月租金（元/平米）</td>
+                        </tr>
+                    </thead>  
+                    <tbody>
+                        <tr>
+                            <td>陆家嘴</td>
+                            <td>80.7</td>
+                            <td>70307.0</td>
+                            <td>73.0</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>  
+        </div>
+        <div class="suoyin">
+            <p style="display: inline;">请选择展示的表</p>
+            第<input type="text" name="st" size="5" id="st" defaultVal="1" value="1">个——
+            第<input type="text" name="ed" size="5" id="ed" defaultVal="20" value="20">个   
+            共<p style="display: inline;">***</p>个
+            <input type="button" id="confirm" value="确定">
+        </div>
+    </div>
+</body>
+</html>

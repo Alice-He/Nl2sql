@@ -1,0 +1,218 @@
+*{
+    margin: 0 auto;
+    font-family: "MSYI"
+}
+body,html
+{
+    min-width: 926px;;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.mm{
+    width: 100%;
+    height: 9%;
+    background-color: #fff;
+    border-bottom: rgb(199, 199, 199) solid 1px;
+    position: fixed;
+}
+.header{
+    height: 100%;
+    width: 100%;
+}
+.title{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.title .logo{
+    position: absolute;
+    margin-top:0.5%;
+    margin-left: 1%;
+    width: 10%;
+    height: 75%;
+}
+#logo_img{
+    width:auto;
+    height:auto;
+    max-width:100%;
+    max-height:100%;
+}
+
+.container{
+    margin-top: 66px;
+    width: 100%;
+    height: 35%;
+    position: fixed;
+    background-color: rgb(249, 249, 249);
+}
+.nl2sql{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: 2%;
+}
+.question{
+    background-color: #fff;
+    width: 40%;
+    height: 80%;
+    position: absolute;
+    display: inline;
+    margin-left: 10%;
+    border: rgb(199, 199, 199) solid 1px;
+}
+.sql{
+    width: 40%;
+    height: 80%;
+    position: absolute;
+    display: inline;
+    margin-left: 50%;
+    background-color: #fff;
+    border: rgb(199, 199, 199) solid 1px;
+}
+
+.ch_sql{
+    width: 100%;
+    height: 40%; 
+    font-size: 16px;
+}
+.ch_data{
+
+    font-size: 16px;
+    position: relative;
+}
+.show_table{
+    margin-top: 320px;
+    height: 50%;
+    width: 100%;
+    position: relative;
+    border-top: rgb(199, 199, 199) solid 1px;
+}
+
+#sql_data{
+    height: 100px;
+    width: 100%;
+    overflow: scroll;
+}
+
+#sql_data::-webkit-scrollbar{
+    width: 5px;
+    height: 3px;
+}
+
+ /* 滚动条的滑轨背景颜色 */
+
+#sql_data::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: #535353;
+
+}
+
+#sql_data::-webkit-scrollbar-track {/*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    background: #EDEDED;
+}
+
+
+.table_id{
+    margin-top: 10px; 
+    color: rgb(120, 118, 118);
+    font-size: 16px;
+}
+.ch_question{
+    margin-top: 10px;
+    color: rgb(120, 118, 118);
+    font-size: 16px;
+}
+.sql_table{
+    width: 80%;
+    height: 100%;
+    overflow: scroll;
+    border: rgb(199, 199, 199) solid 1px;
+    margin-top: 10px;
+}
+
+.sql_table::-webkit-scrollbar{
+    width: 5px;
+    height: 3px;
+}
+
+ /* 滚动条的滑轨背景颜色 */
+
+.sql_table::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: #535353;
+
+}
+
+.sql_table::-webkit-scrollbar-track {/*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    background: #EDEDED;
+}
+
+.q_title{
+    font-size: 20px;
+    color: rgb(42, 109, 243);
+    letter-spacing: 2px;
+}
+.q_button{
+    margin-left: 90%;
+    margin-top: -10px;
+}
+.suoyin{
+    margin-left: 35%;
+}
+
+.shows{
+    margin-top: 10px;
+}
+
+.table_data{
+    width: 100%;
+    font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+.table_data caption{
+    font-size: 14px;
+    color: rgb(91, 181, 236);
+}
+.table_data thead{
+    border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ebeaea;
+}
+.table_data tbody{
+    border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+}
+
+.suoyin{
+    font-family: verdana,arial,sans-serif;
+	font-size:13px;
+	color:#333333;
+}
+
+#confirm{
+    color: #fff;
+    background-color:  rgb(91, 181, 236);
+    cursor: pointer;
+    border-radius: 10px;
+    border:solid 1px rgb(206, 204, 204);
+    height: 23px;
+    width: 50px;
+}

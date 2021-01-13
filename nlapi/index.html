@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>中文toSQL</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/index.js"></script>
+</head>
+<body>
+    <div class="mm">
+        <header class="header">
+            <div class="title">
+                <div class="logo">
+                    <img src="logo.jpg" alt="logo" id="logo_img">
+                </div>
+            </div>
+        </header>
+    </div>  
+    <div class="container">
+        <div class="nl2sql">
+            <div class="question">
+                <p class="q_title">查询问题</p>
+                <div class="table_id">请输入table id:<input type="text" id="table_id" name="table_id" size="30" style="outline-style: none; border: 1px solid #fff; border-bottom: 1px solid rgb(120, 118, 118);"><br></div>
+                <div class="ch_question"><p style="top: 10px;">请输入中文查询语句:</p>
+                    <textarea id="question" rows="4" cols="40" style="margin-top: 5px;margin-left: 5px;"> </textarea>
+                </div>
+                <div class="q_button"><input style="color: #fff;background-color:  rgb(91, 181, 236);cursor: pointer;border-radius: 10px;border:solid 1px rgb(206, 204, 204);height: 30px;width: 50px;" type="button" name="ensure" id="query" value="查询"></div>
+            </div>
+            <div class="sql">
+                <div class="ch_sql">
+                    <p style="color: rgb(120, 118, 118);">sql语句:</p>
+                    <p id="sql"></p>
+                </div>
+                <div class="ch_data">
+                    <p style="color: rgb(120, 118, 118);">查询数据:</p>
+                    <div id="sql_data"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="show_table">
+        <div class="sql_table">
+              
+        </div>
+        <div class="suoyin">
+            <p style="display: inline;">请选择展示的表</p>
+            第<input type="text" name="st" size="5" id="st" style="height: 15px;" defaultVal="1" value="1">个——
+            第<input type="text" name="ed" size="5" id="ed" style="height: 15px;" defaultVal="20" value="20">个   
+            共<p style="display: inline;">365</p>个
+            <input type="button" id="confirm" value="确定">
+        </div>
+    </div>
+
+</body>
+</html>
